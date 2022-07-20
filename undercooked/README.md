@@ -1,0 +1,3 @@
+# Deploy script for salmonella styled ERC20
+
+In december I noticed `swapExactETHForTokensSupportingFeeOnTransferTokens` essentially patched [Salmonella](https://github.com/Defi-Cartel/salmonella) but that quickswap was using `swapExactETHForTokens`. This repo is the script to deploy a set of unbalanced trading pools on quickswap that use a salmonella like token in an attempt to get bots to trade the token and lose money.
